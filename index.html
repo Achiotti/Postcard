@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script href="js/jquery-3.5.0.js"></script>
+  <script href="js/scripts.js"></script>
+  <title>Postcard</title>
+</head> 
+<body>
+  <div class="container">
+    <h1>Post Card Dispenser</h1>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="name">Enter Your Name</label>
+          <input id="name" class="form-control" type="text"  placeholder="First name or Nickname">
+        </div>
+
+      <button type="submit" class="btn">Get Postcard!</button>
+      
+      </form>
+    </div>
+ 
+    <div class="postcard">
+     <div class="row">
+      <div class="col-sm-8">
+       <div class="card-design">
+        <h4>Hello!<span class="name"></span></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat molestie turpis, id volutpat enim auctor ac. Sed pulvinar magna ac facilisis dignissim. Nunc a varius sapien. Aenean sit amet ullamcorper lectus, eget consequat mauris. Curabitur sed ullamcorper risus, sit amet suscipit leo. Integer sollicitudin augue nec semper vulputate. Nam molestie ullamcorper ipsum, eget feugiat purus luctus et. Nulla bibendum dui id nunc tincidunt, lacinia euismod velit tempus. In ligula mauris, mollis porttitor elementum vitae, lobortis sit amet nunc. Vivamus massa elit, ullamcorper quis congue ac, tempus ac ante.</p>
+        <p>In jest,</p>
+        <p>Andrea</p>
+        </div>
+      </div>  
+    <div class="col-sm-4" border>
+      <div class="address">
+        <ul style="list-style-type:none;" class="rounded">
+          <li><span class="name"></span></li>
+          <li>3489 Forest Lane<li>
+          <li>Portland, OR 97206</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <img src="barcode.jpg" alt="barcode" width=200px height=50px>
+    </div>
+  </div>
+
+</body>
+</html>

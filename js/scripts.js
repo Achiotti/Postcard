@@ -1,9 +1,13 @@
 $(document).ready(function() {
-  $("#formOne").submit(function(event) {
-    var nameInput = $("input#name").val();
+  var height = parseInt(prompt("Enter your height in inches,"));
 
-  $(".name").text(nameInput);
-  $(".postcard").show();
-    event.preventDefault();
-  });
+
+
+  if (height >= 61) {
+    $("#tall").show();
+  }
+    else {
+      $("#short").show();
+    }
+  
 });
